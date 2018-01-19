@@ -28,14 +28,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         marker.snippet = "Mile: 0.00"
         marker.map = mapView
         
-        //    let path = Bundle.main.path(forResource: "GeoJSON_sample", ofType: "json")
-        //    let url = URL(fileURLWithPath: path!)
-        //    geoJsonParser = GMUGeoJSONParser(url: url)
-        //    geoJsonParser.parse()
-        //
-        //    renderer = GMUGeometryRenderer(map: mapView, geometries: geoJsonParser.features)
-        //
-        //    renderer.render()
+            let path = Bundle.main.path(forResource: "TrailyWaypoints", ofType: "json")
+            let url = URL(fileURLWithPath: path!)
+            geoJsonParser = GMUGeoJSONParser(url: url)
+            geoJsonParser.parse()
+        
+            renderer = GMUGeometryRenderer(map: mapView, geometries: geoJsonParser.features)
+        
+            renderer.render()
         
     }
     
