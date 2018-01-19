@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0FE28A020116EF500553905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE289F20116EF500553905 /* AppDelegate.swift */; };
+		C0FE28A220116EF500553905 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FE28A120116EF500553905 /* MapViewController.swift */; };
+		C0FE28A520116EF500553905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FE28A320116EF500553905 /* Main.storyboard */; };
+		C0FE28A820116EF500553905 /* Traily.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0FE28A620116EF500553905 /* Traily.xcdatamodeld */; };
+		C0FE28AA20116EF500553905 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FE28A920116EF500553905 /* Assets.xcassets */; };
+		C0FE28AD20116EF500553905 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0FE28AB20116EF500553905 /* LaunchScreen.storyboard */; };
+		DB7CD57EB6ECAE18734DD940 /* Pods_Traily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7796BFE0D96758BD2D39590 /* Pods_Traily.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F307B31FC99ADC5059997BA /* Pods-Traily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Traily/Pods-Traily.debug.xcconfig"; sourceTree = "<group>"; };
+		36697CCE7F8D347C3C6913EC /* Pods-Traily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traily.release.xcconfig"; path = "Pods/Target Support Files/Pods-Traily/Pods-Traily.release.xcconfig"; sourceTree = "<group>"; };
+		A7796BFE0D96758BD2D39590 /* Pods_Traily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Traily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FE289C20116EF500553905 /* Traily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FE289F20116EF500553905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0FE28A120116EF500553905 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C0FE28A420116EF500553905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0FE28A720116EF500553905 /* Traily.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Traily.xcdatamodel; sourceTree = "<group>"; };
+		C0FE28A920116EF500553905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0FE28AC20116EF500553905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0FE28AE20116EF500553905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0FE289920116EF500553905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7CD57EB6ECAE18734DD940 /* Pods_Traily.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2604F49E592DA2FD1F905C99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7796BFE0D96758BD2D39590 /* Pods_Traily.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5670CD402DEAD7B30E6A51E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F307B31FC99ADC5059997BA /* Pods-Traily.debug.xcconfig */,
+				36697CCE7F8D347C3C6913EC /* Pods-Traily.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0FE289320116EF500553905 = {
+			isa = PBXGroup;
+			children = (
+				C0FE289E20116EF500553905 /* Traily */,
+				C0FE289D20116EF500553905 /* Products */,
+				A5670CD402DEAD7B30E6A51E /* Pods */,
+				2604F49E592DA2FD1F905C99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0FE289D20116EF500553905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0FE289C20116EF500553905 /* Traily.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0FE289E20116EF500553905 /* Traily */ = {
+			isa = PBXGroup;
+			children = (
+				C0FE289F20116EF500553905 /* AppDelegate.swift */,
+				C0FE28A120116EF500553905 /* MapViewController.swift */,
+				C0FE28A320116EF500553905 /* Main.storyboard */,
+				C0FE28A920116EF500553905 /* Assets.xcassets */,
+				C0FE28AB20116EF500553905 /* LaunchScreen.storyboard */,
+				C0FE28AE20116EF500553905 /* Info.plist */,
+				C0FE28A620116EF500553905 /* Traily.xcdatamodeld */,
+			);
+			path = Traily;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0FE289B20116EF500553905 /* Traily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FE28B120116EF500553905 /* Build configuration list for PBXNativeTarget "Traily" */;
+			buildPhases = (
+				F2103B5E9F8C1193691ED0DB /* [CP] Check Pods Manifest.lock */,
+				C0FE289820116EF500553905 /* Sources */,
+				C0FE289920116EF500553905 /* Frameworks */,
+				C0FE289A20116EF500553905 /* Resources */,
+				EEF9D1B43E38B2CE81FCFD3A /* [CP] Embed Pods Frameworks */,
+				6101E7C04121D8406FB23557 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Traily;
+			productName = Traily;
+			productReference = C0FE289C20116EF500553905 /* Traily.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0FE289420116EF500553905 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Andy Kwong";
+				TargetAttributes = {
+					C0FE289B20116EF500553905 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C0FE289720116EF500553905 /* Build configuration list for PBXProject "Traily" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0FE289320116EF500553905;
+			productRefGroup = C0FE289D20116EF500553905 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0FE289B20116EF500553905 /* Traily */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0FE289A20116EF500553905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FE28AD20116EF500553905 /* LaunchScreen.storyboard in Resources */,
+				C0FE28AA20116EF500553905 /* Assets.xcassets in Resources */,
+				C0FE28A520116EF500553905 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6101E7C04121D8406FB23557 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Traily/Pods-Traily-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Traily/Pods-Traily-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEF9D1B43E38B2CE81FCFD3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Traily/Pods-Traily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2103B5E9F8C1193691ED0DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Traily-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0FE289820116EF500553905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FE28A220116EF500553905 /* MapViewController.swift in Sources */,
+				C0FE28A020116EF500553905 /* AppDelegate.swift in Sources */,
+				C0FE28A820116EF500553905 /* Traily.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0FE28A320116EF500553905 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FE28A420116EF500553905 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0FE28AB20116EF500553905 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FE28AC20116EF500553905 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0FE28AF20116EF500553905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0FE28B020116EF500553905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0FE28B220116EF500553905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F307B31FC99ADC5059997BA /* Pods-Traily.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZGUE69R79;
+				INFOPLIST_FILE = Traily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ly.trailwise.Traily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0FE28B320116EF500553905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36697CCE7F8D347C3C6913EC /* Pods-Traily.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZGUE69R79;
+				INFOPLIST_FILE = Traily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ly.trailwise.Traily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0FE289720116EF500553905 /* Build configuration list for PBXProject "Traily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FE28AF20116EF500553905 /* Debug */,
+				C0FE28B020116EF500553905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FE28B120116EF500553905 /* Build configuration list for PBXNativeTarget "Traily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FE28B220116EF500553905 /* Debug */,
+				C0FE28B320116EF500553905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0FE28A620116EF500553905 /* Traily.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0FE28A720116EF500553905 /* Traily.xcdatamodel */,
+			);
+			currentVersion = C0FE28A720116EF500553905 /* Traily.xcdatamodel */;
+			path = Traily.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C0FE289420116EF500553905 /* Project object */;
+}
