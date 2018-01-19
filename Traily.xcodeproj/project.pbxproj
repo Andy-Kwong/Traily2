@@ -20,6 +20,7 @@
 		1F307B31FC99ADC5059997BA /* Pods-Traily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Traily/Pods-Traily.debug.xcconfig"; sourceTree = "<group>"; };
 		36697CCE7F8D347C3C6913EC /* Pods-Traily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Traily.release.xcconfig"; path = "Pods/Target Support Files/Pods-Traily/Pods-Traily.release.xcconfig"; sourceTree = "<group>"; };
 		A7796BFE0D96758BD2D39590 /* Pods_Traily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Traily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09381972011915100881CB5 /* Traily-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Traily-Bridging-Header.h"; sourceTree = "<group>"; };
 		C0FE289C20116EF500553905 /* Traily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Traily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0FE289F20116EF500553905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0FE28A120116EF500553905 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 		C0FE289320116EF500553905 = {
 			isa = PBXGroup;
 			children = (
+				C09381972011915100881CB5 /* Traily-Bridging-Header.h */,
 				C0FE289E20116EF500553905 /* Traily */,
 				C0FE289D20116EF500553905 /* Products */,
 				A5670CD402DEAD7B30E6A51E /* Pods */,
@@ -366,6 +368,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ly.trailwise.Traily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Traily-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,6 +385,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ly.trailwise.Traily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Traily-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
